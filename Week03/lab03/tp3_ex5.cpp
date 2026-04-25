@@ -15,7 +15,6 @@ void findMaxMin(int* arr, int *max, int *min) {
         }
     }
 }
-
 int main() {
     int numbers[7];
     int maxValue, minValue;
@@ -34,9 +33,7 @@ int main() {
         cout << numbers[i] << " ";
     }
     cout << endl;
-    
     cout << "\nMaximum value: " << maxValue << endl;
-    cout << "Minimum value: " << minValue << endl;
-    
+    cout << "Minimum value: " << minValue << endl;   
     return 0;
 }
